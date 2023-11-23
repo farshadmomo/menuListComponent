@@ -7,9 +7,9 @@ function App() {
   return (
       <div className='app-container'>
           <MenuList
-            listItems = ""
-            fontSize = ""
-            backgroundColor = ""
+            listItems = {menuListData}
+            fontSize = "16px"
+            backgroundColor = "#dddddd"
           />
       </div>
   );

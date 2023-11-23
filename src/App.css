@@ -49,7 +49,7 @@
 .menu-list-items:hover {
     height: 60px;
     width: 410px;
-    background-color: #bbbbbb;
+    background-color: #bbbbbb !important;
     transition: 300ms;
 }
 .menu-items-container {
