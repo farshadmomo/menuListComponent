@@ -6,7 +6,11 @@ import menuListData from "./menuListData";
 function App() {
   return (
       <div className='app-container'>
-          <MenuList />
+          <MenuList
+            listItems = ""
+            fontSize = ""
+            backgroundColor = ""
+          />
       </div>
   );
 }
