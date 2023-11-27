@@ -4,7 +4,6 @@ import MenuListItems from "./MenuListItems";
 import menuListData from "../menuListData";
 function MenuList(props) {
     const [menuContent,setMenuContent] = React.useState(false)
-    console.log(menuContent)
     function closeModal() {
         setMenuContent(prevState => !prevState)
     }
